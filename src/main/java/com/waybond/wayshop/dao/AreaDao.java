@@ -15,14 +15,14 @@ import com.waybond.wayshop.entity.Area;
 
 public interface AreaDao {
 	/**
-	* 
+	* 查询区域
 	* @param
 	* @return List<Area>
 	*/
 	List<Area> queryArea();
 	
 	/**
-	 * 
+	 * 插入区域
 	 * @param area
 	 * @return
 	 */
@@ -30,21 +30,21 @@ public interface AreaDao {
 	
 	
 	/**
-	 * 
+	 * 更新区域
 	 * @param area
 	 * @return
 	 */
 	int updateArea(Area area);
 	
 	/**
-	 * 
+	 * 删除区域
 	 * @param areaId
 	 * @return
 	 */
 	int deleteArea(long areaId);
 
 	/**
-	 * 
+	 * 删除多区域
 	 * @param areaIdList
 	 * @return
 	 */
