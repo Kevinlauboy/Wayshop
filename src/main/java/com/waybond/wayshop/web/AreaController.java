@@ -16,14 +16,14 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.waybond.wayshop.entity.Area;
 import com.waybond.wayshop.service.AreaService;
 
-
 @Controller()
 @RequestMapping("superadmin")
 public class AreaController {
 	Logger logger = LoggerFactory.getLogger(AreaController.class);
-	
+
 	@Autowired
-	private AreaService areaService ;
+	private AreaService areaService;
+
 	@ResponseBody
 	@RequestMapping(value = "/listarea", method = RequestMethod.GET)
 	private Map<String, Object> listArea() {

@@ -14,6 +14,7 @@ import static org.junit.Assert.assertEquals;
  * @history:
  * @version: v1.0
  */
+
 public class AreaDaoTest extends BaseTest {
 	@Autowired
 	private AreaDao areaDao;
